@@ -1,0 +1,24 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.maze {
+  border: 0.25em solid blue;
+  overflow: hidden;
+  margin: 0 auto;
+  width: 25em;
+}
+
+.maze-row {
+  clear: left;
+}
+
+.mazetile {
+  border: 0.25em solid blue;
+  width: 2em;
+  height: 2em;
+  float: left;
+  background: red;
+}
